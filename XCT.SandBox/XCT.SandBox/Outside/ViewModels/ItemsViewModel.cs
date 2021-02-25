@@ -21,7 +21,7 @@ namespace App7.ViewModels
             await Shell.Current.GoToAsync("//tabbar/About");
 			try
 			{
-				await Task.Delay(10);
+				await Task.Delay(1);
 				await Shell.Current.CurrentPage.DisplayToastAsync(string.Empty);
 			}
 			catch (Exception ex)
