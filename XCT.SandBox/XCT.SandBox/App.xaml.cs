@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App7;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace XCT.SandBox
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new AppShell();
 		}
 
 		protected override void OnStart()
