@@ -149,6 +149,10 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\XamarinCommunityToolkit\src\CommunityToolkit\Xamarin.CommunityToolkit\Xamarin.CommunityToolkit.csproj">
+      <Project>{8e906580-1a31-4018-b71e-a56860a4426d}</Project>
+      <Name>Xamarin.CommunityToolkit</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XCT.SandBox\XCT.SandBox.csproj">
       <Project>{3116336C-9B94-4A71-A698-1BBAA270AD19}</Project>
       <Name>XCT.SandBox</Name>

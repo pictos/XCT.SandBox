@@ -16,21 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XCTSource\src\CommunityToolkit\Xamarin.CommunityToolkit\Xamarin.CommunityToolkit.csproj" />
+    <Folder Include="External\" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="External\AnotherPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="External\App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="External\AppShell.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="External\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
+    <ProjectReference Include="..\..\XamarinCommunityToolkit\src\CommunityToolkit\Xamarin.CommunityToolkit\Xamarin.CommunityToolkit.csproj" />
   </ItemGroup>
 </Project>
