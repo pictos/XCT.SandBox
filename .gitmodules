@@ -1,0 +1,3 @@
+[submodule "XamarinCommunityToolkit"]
+	path = XamarinCommunityToolkit
+	url = https://github.com/xamarin/XamarinCommunityToolkit.git
