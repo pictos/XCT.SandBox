@@ -1,16 +1,12 @@
-﻿using App1;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
-namespace XCT.SandBox
+namespace App1
 {
 	public partial class App : Application
 	{
 		public App()
 		{
 			InitializeComponent();
-
 			MainPage = new AppShell();
 		}
 
