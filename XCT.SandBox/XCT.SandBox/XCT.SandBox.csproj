@@ -18,4 +18,8 @@
   <ItemGroup>
     <ProjectReference Include="..\XCTSource\src\CommunityToolkit\Xamarin.CommunityToolkit\Xamarin.CommunityToolkit.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="External\" />
+  </ItemGroup>
 </Project>
