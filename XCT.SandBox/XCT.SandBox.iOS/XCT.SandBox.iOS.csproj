@@ -132,5 +132,9 @@
       <Project>{3116336C-9B94-4A71-A698-1BBAA270AD19}</Project>
       <Name>XCT.SandBox</Name>
     </ProjectReference>
+    <ProjectReference Include="..\XCTSource\src\CommunityToolkit\Xamarin.CommunityToolkit\Xamarin.CommunityToolkit.csproj">
+      <Project>{f7dff86d-4654-476e-9a28-d254039f28f1}</Project>
+      <Name>Xamarin.CommunityToolkit</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
