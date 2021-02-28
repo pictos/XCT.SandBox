@@ -5,5 +5,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:app1="clr-namespace:App1"
     xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.Effects;assembly=Xamarin.CommunityToolkit">
-    <ImageButton xct:IconTintColorEffect.TintColor="Blue" Source="icon.png" />
+    <StackLayout>
+        <ImageButton xct:IconTintColorEffect.TintColor="Blue" Source="icon.png" />
+
+        <Entry Placeholder="Just a test">
+            <Entry.Effects>
+                <xct:RemoveBorderEffect/>
+            </Entry.Effects>
+        </Entry>
+    </StackLayout>
 </ContentPage>

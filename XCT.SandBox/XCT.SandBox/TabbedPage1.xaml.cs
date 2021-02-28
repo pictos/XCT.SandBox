@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace XCT.SandBox
 {
-	public partial class MainPage : ContentPage
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class TabbedPage1 : TabbedPage
 	{
-		public MainPage()
+		public TabbedPage1()
 		{
 			InitializeComponent();
 		}
